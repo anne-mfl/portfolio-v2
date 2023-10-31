@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body ::-webkit-scrollbar-track #scrollbar-dark{
+  background-color:  pink !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 171, 171); 
+  /* background: #f9ee77;  */
+  /* border: 1px solid #F1E4E8; */
+  border-radius: 8px;
+}
+
+:root{
+  /* scrollbar-color: #7D7D7D !important; */
+  scrollbar-width: thin !important;
+}
+
+.menu-link {
+  transition: color 0.1s ease;
+}
+
+
+
+/* ---------mobile nav--------------- */
+.hamburger-menu {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.bar-top,
+.bar-middle,
+.bar-bottom {
+  height: 2px;
+  background-color: black;
+  border-radius: 1px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bar-top-changed {
+  transform: rotate(47deg);
+  background-color: black;
+  height: 2px;
+  border-radius: 1px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
 }
+
+.bar-middle-changed {
+  transform: translateX(1rem);
+  opacity: 0;
+  background-color: black;
+  height: 2px;
+  border-radius: 1px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+
+.bar-bottom-changed {
+  transform: rotate(-47deg);
+  background-color: black;
+  height: 2px;
+  border-radius: 1px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+
+
+
