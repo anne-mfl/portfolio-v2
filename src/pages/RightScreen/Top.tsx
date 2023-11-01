@@ -1,4 +1,3 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function Top() {
   return (

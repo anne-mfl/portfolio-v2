@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Element } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { ReactComponent as DiagonalArrow } from 'assets/icons/external-link.svg'
+
 
 export default function Experience() {
 
@@ -39,7 +39,7 @@ export default function Experience() {
 
   return (
     <Element
-      className='h-screen select-none flex flex-col justify-center bg-stone-50 px-16 sticky top-0 max-md:px-12 max-sm:px-6'
+      className='h-screen select-none flex flex-col justify-center bg-stone-100 px-16 sticky top-0 max-md:px-12 max-sm:px-6'
       // sticky top-0 z-20
       id='experience'
       style={{ zIndex: 20 }}
@@ -126,10 +126,10 @@ export default function Experience() {
         <a
           href='https://drive.google.com/file/d/1isFWH0YExilSQpwXZBSBgnc-E_Tz3L-a/view?usp=sharing'
           target='_blank'
-          className='[&>svg]:transition [&>svg]:hover:translate-x-2  [&>svg]:hover:duration-200'
+          className='[&>svg]:transition [&>svg]:hover:translate-x-2  [&>svg]:hover:duration-200 [&>span]:hover:underline' 
         >
           {/* <span className='hover:border-b border-b-stone-600 pb-1'>View resume</span> */}
-          <span className='hover:underline'>View resume</span>
+          <span>View resume</span>
           <FontAwesomeIcon icon={faArrowRight} className='ml-2 text-sm' />
         </a>
       </div>

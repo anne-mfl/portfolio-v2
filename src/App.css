@@ -39,6 +39,11 @@ body ::-webkit-scrollbar-track #scrollbar-dark{
   height: 32px;
   width: 32px;
   cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.hamburger-menu:hover {
+  transform: translate(4px, -4px);
 }
 
 .bar-top,

@@ -1,17 +1,16 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import { AnimationOnScroll } from 'react-animation-on-scroll'
+// import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 export default function About() {
   return (
-    // <Element className='flex items-end pb-24 h-screen bg-transparent px-24 sticky top-0'
     <Element className='flex items-end pb-24 mb-48 bg-transparent h-screen px-24 sticky top-0 max-md:px-12 max-sm:px-6'
       id='about'
       style={{ zIndex: 10 }}
       name='about'
     >
 
-      <AnimationOnScroll animateIn="animate__fadeIn">
+      {/* <AnimationOnScroll animateIn="animate__fadeIn"> */}
         <div className='text-white'>
           <h1 className='text-xl font-normal px-4 mb-2'>About me</h1>
           <p className='font-normal leading-6.5 px-4 py-2'>
@@ -26,7 +25,7 @@ export default function About() {
             I am passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
           </p>
         </div>
-      </AnimationOnScroll>
+      {/* </AnimationOnScroll> */}
 
     </Element>
   )

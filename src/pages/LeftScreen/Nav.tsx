@@ -3,6 +3,7 @@ import clsx from "clsx";
 import * as Scroll from 'react-scroll'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import logo from 'assets/logo03sec.gif'
+import ScrollAnimation from "react-animate-on-scroll";
 
 // helpers
 const capitalize = (text: string) =>
@@ -98,7 +99,6 @@ export default function App() {
 
   return (
     <nav className='h-5/6 max-xl:h-screen'>
-
       <div className='h-2/5 flex items-end max-xl:h-full max-xl:items-center'>
         <img
           src={logo}
@@ -161,7 +161,6 @@ export default function App() {
       </div>
 
       {/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */}
-
     </nav >
   );
 }
