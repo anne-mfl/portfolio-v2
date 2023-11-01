@@ -16,13 +16,10 @@ export default function About() {
           <p className='font-normal leading-6.5 px-4 py-2'>
             My name is Anne and I am a frontend developer based in Barcelona, Spain.
             I enjoy replicating design to pixel-perfect interfaces.<br />
-            Back in 2021, I decided to transform from dancing/translating career and challenge the tech industry.
-            {/* I immersed myself in an intensive full-stack coding bootcamp, 
-          joined a startup company, and later at a venture capital as a frontend developer
-          Currently I work at a venture capital as a frontend developer. */}
+            Back in 2021, I decided to transform from dancing/translating career and challenge the tech industry. 
+            After attending a full-stack coding bootcamp, I joined a startup company on NFT marketplace, followed by working at a venture capital.<br />
+            I am currently looking for a frontend developer position!
 
-            {/* I have developed many types of frontends from ** to ecommerce booking platforms */}
-            I am passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
           </p>
         </div>
       {/* </AnimationOnScroll> */}
