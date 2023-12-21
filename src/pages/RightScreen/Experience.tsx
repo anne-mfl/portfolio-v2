@@ -124,9 +124,10 @@ export default function Experience() {
 
       <div className='mt-16'>
         <a
-          href='https://drive.google.com/file/d/1isFWH0YExilSQpwXZBSBgnc-E_Tz3L-a/view?usp=sharing'
+          href='https://drive.google.com/file/d/17EwCYQt-qMvSkx6R_YIlxCbDE0d-T2Ic/view?usp=sharing'
+          // href='https://drive.google.com/file/d/1isFWH0YExilSQpwXZBSBgnc-E_Tz3L-a/view?usp=sharing'
           target='_blank'
-          className='[&>svg]:transition [&>svg]:hover:translate-x-2  [&>svg]:hover:duration-200 [&>span]:hover:underline' 
+          className='[&>svg]:transition [&>svg]:hover:translate-x-2  [&>svg]:hover:duration-200 [&>span]:hover:underline'
         >
           {/* <span className='hover:border-b border-b-stone-600 pb-1'>View resume</span> */}
           <span>View resume</span>
