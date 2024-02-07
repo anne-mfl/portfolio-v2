@@ -14,12 +14,13 @@ export default function About() {
         <div className='text-white'>
           <h1 className='text-xl font-normal px-4 mb-2'>About me</h1>
           <p className='font-normal leading-6.5 px-4 py-2'>
-            My name is Anne and I am a frontend developer based in Barcelona, Spain.
-            I enjoy replicating design to pixel-perfect interfaces.<br />
+            My name is Anne and I am a Frontend Developer based in Barcelona, Spain.
+            I am passionate about crafting user-centric web experiences and replicating design into responsive and pixel-perfect interfaces.
+            <br /><br />
             Back in 2021, I decided to transform from dancing/translating career and challenge the tech industry. 
-            After attending a full-stack coding bootcamp, I joined a startup company on NFT marketplace, followed by working at a venture capital.<br />
-            I am currently looking for a frontend developer position!
-
+            After attending a full-stack coding bootcamp, I joined a startup on NFT marketplace, followed by working at a venture capital firm as a Frontend Developer.
+            <br /><br />
+            Currently, I am looking for a Frontend Developer position where I can develop my career, expand my skillset and contribute to a dynamic project!
           </p>
         </div>
       {/* </AnimationOnScroll> */}

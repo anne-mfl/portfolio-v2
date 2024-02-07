@@ -14,8 +14,9 @@ export default function Experience() {
       where: 'Nauta Capital',
       period: 'October 2022 - September 2023',
       descriptions: [
-        'Maintaining and implementing new feature of a data-driven investment platform and its chrome extension',
-        'Developing web application from scratch for founders to find their next potential investments'
+        'Maintaining and implementing new feature of a data-driven investment platform and its Chrome Extension',
+        'Developing CRM web application from scratch that was aimed for startup founders to find potential investments',
+        'Conducting unit tests and integration tests',
       ],
       stacks: ['React', 'JS', 'TS', 'GraphQL', 'Webpack', 'Babel', 'Jest', 'React Testing Library', 'CSS-in-JS (Stitches)', 'Git'],
       website: 'https://nautacapital.com/'

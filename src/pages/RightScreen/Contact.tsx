@@ -1,7 +1,7 @@
 import Footer from 'pages/LeftScreen/Footer'
 import { Element } from 'react-scroll'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCopy } from '@fortawesome/free-regular-svg-icons'
 
 export default function Contact() {
   return (
@@ -14,15 +14,31 @@ export default function Contact() {
 
       <div className='w-full'>
         <h1 className='text-xl font-normal mb-16 text-center'>Contact</h1>
-        <section>
-          <p className='text-center'>I am currently seeking for a frontend developer position.<br />
-            Contact me for further inquiries!
+        <section className='text-center'>
+          <p>
+            I am currently seeking for a Frontend Developer position.
+            <br />
+            Contact me for further inquiries at:
           </p>
 
-          <button className='rounded-lg px-9 py-3 mt-12 bg-white block mx-auto hover:bg-yellow hover:bg-opacity-50'>
-            <a href="mailto:anne.gemma.lee@gmail.com">Send an email</a>
-          </button>
+          <p className='mt-8 font-normal text-lg cursor-pointer hover:text-black'
+            onClick={() => {
+              navigator.clipboard.writeText('anne.gemma.lee@gmail.com')
+              const tooltip = document.getElementById("myTooltip")
+              tooltip.innerHTML = 'Copied!'
+            }}
+          >
+            <div className='tooltip'>
+              anne.gemma.lee@gmail.com
+              <FontAwesomeIcon icon={faCopy} className='ml-3' />
+              <span className='tooltiptext' id='myTooltip'>Copy to clipboard</span>
+            </div>
+          </p>
 
+
+          {/* <button className='rounded-lg px-9 py-3 mt-12 bg-white block mx-auto hover:bg-yellow hover:bg-opacity-50'>
+            <a href="mailto:anne.gemma.lee@gmail.com">Send an email</a>
+          </button> */}
           {/* <a href="mailto:anne.gemma.lee@gmail.com" className='block mt-12 text-center [&>svg]:transition [&>svg]:hover:translate-x-2  [&>svg]:hover:duration-200 [&>span]:hover:underline'>
             <span>Send an email</span>
             <FontAwesomeIcon icon={faArrowRight} className='ml-2 text-sm' />
