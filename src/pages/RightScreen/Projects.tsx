@@ -11,6 +11,13 @@ export default function Projects() {
 
   const projects = [
     {
+      name: 'promptopia',
+      title: 'AI Prompt Sharing Full-Stack Application',
+      using: 'Next.js/NextAuth/ MongoDB/TailwindCSS',
+      repo: 'https://github.com/anne-mfl/promptopia',
+      site: 'https://promptopia-q7z8zz077-annes-projects-5e12311d.vercel.app/'
+    },
+    {
       name: 'audiophile',
       title: 'Audiophile E-commerce Website',
       using: 'React/Typescript/Redux/TailwindCSS',
@@ -73,13 +80,13 @@ export default function Projects() {
       repo: 'https://github.com/anne-mfl/FAQ-accordion-card',
       site: 'https://anne-mfl.github.io/FAQ-accordion-card/'
     },
-    {
-      name: 'signup',
-      title: 'Sign-up Form',
-      using: 'React',
-      repo: 'https://github.com/anne-mfl/intro-component-with-signup-form',
-      site: 'https://anne-mfl.github.io/intro-component-with-signup-form/'
-    },
+    // {
+    //   name: 'signup',
+    //   title: 'Sign-up Form',
+    //   using: 'React',
+    //   repo: 'https://github.com/anne-mfl/intro-component-with-signup-form',
+    //   site: 'https://anne-mfl.github.io/intro-component-with-signup-form/'
+    // },
     // {
     //   name: 'rating',
     //   title: 'Interactive Rating Component',
