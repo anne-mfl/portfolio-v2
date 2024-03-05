@@ -15,7 +15,7 @@ export default function Projects() {
       title: 'AI Prompt Sharing Full-Stack App',
       using: 'Next.js/NextAuth/ MongoDB/TailwindCSS',
       repo: 'https://github.com/anne-mfl/promptopia',
-      site: 'https://promptopia-q7z8zz077-annes-projects-5e12311d.vercel.app/'
+      site: 'https://promptopia-seven-ruby.vercel.app/'
     },
     {
       name: 'audiophile',
