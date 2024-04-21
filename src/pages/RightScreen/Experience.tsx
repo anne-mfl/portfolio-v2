@@ -14,9 +14,9 @@ export default function Experience() {
       where: 'Nauta Capital',
       period: 'October 2022 - September 2023',
       descriptions: [
-        'Maintaining and implementing new feature of a data-driven investment platform and its Chrome Extension',
-        'Developing CRM web application from scratch that was aimed for startup founders to find potential investments',
-        'Conducting unit tests and integration tests',
+        'Maintain and implement new feature of a data-driven investment platform and its Chrome Extension',
+        'Develop CRM web application from scratch',
+        'Conduct unit tests and integration tests',
       ],
       stacks: ['React', 'JS', 'TS', 'GraphQL', 'Webpack', 'Babel', 'Jest', 'React Testing Library', 'CSS-in-JS (Stitches)', 'Git'],
       website: 'https://nautacapital.com/'
@@ -40,7 +40,7 @@ export default function Experience() {
 
   return (
     <Element
-      className='h-screen select-none flex flex-col justify-center bg-stone-100 px-16 sticky top-0 max-md:px-12 max-sm:px-6'
+      className='h-screen flex flex-col justify-center bg-stone-100 px-16 sticky top-0 max-md:px-12 max-sm:px-6'
       // sticky top-0 z-20
       id='experience'
       style={{ zIndex: 20 }}
