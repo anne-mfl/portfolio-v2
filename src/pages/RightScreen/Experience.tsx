@@ -6,9 +6,21 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function Experience() {
 
-  const [displayed, setDisplayed] = useState('nauta')
+  const [displayed, setDisplayed] = useState('cnag')
 
   const experiences = {
+    cnag: {
+      title: 'Frontend Developer',
+      where: 'CNAG (Centro Nacional de Análisis Genómico)',
+      period: 'June 2024 - Present',
+      descriptions: [
+        'Create data visualization platform for a research project',
+        'Design and build a new web site for the lab',
+        'Develop full-stack management app for the lab',
+      ],
+      stacks: ['React', 'JS', 'TS', 'Tailwind CSS', 'Plotly', 'Node.js', 'Express' ,'SQLite', 'REST API', 'Git'],
+      website: 'https://www.cnag.eu/'
+    },
     nauta: {
       title: 'Frontend Developer',
       where: 'Nauta Capital',
@@ -55,15 +67,17 @@ export default function Experience() {
           <section className='flex h-fit max-md:flex-col max-md:w-fit'>
 
             <div className='border-l-4 relative max-md:hidden'>
-              <div className={`bg-lightYellow h-2/6 w-1 absolute 
-                  ${displayed === 'nauta' && 'right-0 top-0 duration-500'}
-                  ${displayed === 'mavon' && 'right-0 top-[33.3%] duration-500'}
-                  ${displayed === 'bcs' && 'right-0 top-[66.6%] duration-500'}
+              <div className={`bg-lightYellow h-1/4 w-1 absolute 
+                  ${displayed === 'cnag' && 'right-0 top-0 duration-500'}
+                  ${displayed === 'nauta' && 'right-0 top-[25%] duration-500'}
+                  ${displayed === 'mavon' && 'right-0 top-[50%] duration-500'}
+                  ${displayed === 'bcs' && 'right-0 top-[75%] duration-500'}
               `} />
             </div>
 
             <ul className='w-40 h-fit [&>li]:py-3 [&>li]:pl-4 [&>li]:cursor-pointer 
              max-md:w-full max-md:flex max-md:[&>li]:px-5 max-md:[&>li]:py-1.5 max-sm:[&>li]:px-3'>
+              <li className={displayed === 'cnag' ? 'font-semibold' : 'normal'} onClick={() => setDisplayed('cnag')}><a>CNAG</a></li>
               <li className={displayed === 'nauta' ? 'font-semibold' : 'normal'} onClick={() => setDisplayed('nauta')}><a>Nauta&nbsp;Capital</a></li>
               <li className={displayed === 'mavon' ? 'font-semibold' : 'normal'} onClick={() => setDisplayed('mavon')}><a>Mavon</a></li>
               <li className={displayed === 'bcs' ? 'font-semibold' : 'normal'} onClick={() => setDisplayed('bcs')}><a>BCS</a></li>
@@ -71,9 +85,11 @@ export default function Experience() {
 
             <div className='hidden max-md:block border-b-4 relative mb-5'>
               <div className={`bg-lightYellow absolute h-1
-                  ${displayed === 'nauta' && 'left-0 duration-500 w-36 max-sm:w-32'}
-                  ${displayed === 'mavon' && 'left-[45%] duration-500 w-24 max-sm:w-20 max-sm:left-[47%]'}
-                  ${displayed === 'bcs' && 'left-[74%] duration-500 w-20 max-sm:w-14 max-sm:left-[78%]'}
+                  ${displayed === 'cnag' && 'left-0 duration-500 w-[22%]'}
+                  ${displayed === 'nauta' && 'left-[22%] duration-500 w-[36%]'}
+                  ${displayed === 'mavon' && 'left-[56%] duration-500 w-[27%]'}
+                  ${displayed === 'bcs' && 'left-[83%] duration-500 w-[17%]'}
+                 
               `} />
             </div>
 
@@ -87,6 +103,7 @@ export default function Experience() {
                   <h2 className='text-lg font-normal [&>span>svg]:transition [&>span>svg]:hover:-translate-y-1 [&>span>svg]:hover:translate-x-1 [&>span>svg]:hover:duration-200 hover:underline'>
                     {experiences[displayed].title}
                     <p className='text-lg px-1 font-thin inline'>at</p>
+                    {displayed === 'cnag' && <br/>}
                     <span className='whitespace-nowrap'>
                       {experiences[displayed].where}
                       {experiences[displayed].website && <FontAwesomeIcon icon={faArrowRight} className='ml-2 mb-0 text-sm -rotate-45' />}

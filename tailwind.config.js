@@ -29,7 +29,11 @@ module.exports = {
       },
       lineHeight: {
         '6.5': '26px'
-      }
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        '4xl': '0 50px 100px -20px rgba(0, 0, 0, 0.5)',
+      },
       // content: {
       // 'sun': 'url("./src/icons/sun.svg")',
       // 'moon': 'url("./src/images/moon.png")'

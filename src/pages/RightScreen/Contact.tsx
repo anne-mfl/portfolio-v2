@@ -4,6 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopy } from '@fortawesome/free-regular-svg-icons'
 
 export default function Contact() {
+
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  }
+
+  const thisYear = getCurrentYear();
+
   return (
     <Element
       id='contact'
@@ -16,12 +23,10 @@ export default function Contact() {
         <h1 className='text-xl font-normal mb-16 text-center'>Contact</h1>
         <section className='text-center'>
           <p>
-            I am currently seeking for a Frontend Developer position.
-            <br />
             Contact me for further inquiries at:
           </p>
 
-          <p className='mt-8 font-normal text-lg cursor-pointer hover:text-black'
+          <p className='mt-1 font-normal text-lg cursor-pointer hover:text-black'
             onClick={() => {
               navigator.clipboard.writeText('anne.gemma.lee@gmail.com')
               const tooltip = document.getElementById("myTooltip")
@@ -52,7 +57,7 @@ export default function Contact() {
       </div>
 
 
-      <p className='absolute bottom-0 block mx-'>© Anne Lee 2023</p>
+      <p className='absolute bottom-0 block mx-'>© Anne Lee {thisYear}</p>
     </Element>
   )
 }
