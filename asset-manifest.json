@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.511818de.css",
-    "main.js": "/static/js/main.963432b7.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/static/css/main.c935498b.css",
+    "main.js": "/static/js/main.6fef6080.js",
+    "static/js/787.d0ad3386.chunk.js": "/static/js/787.d0ad3386.chunk.js",
     "static/media/promptopia.png": "/static/media/promptopia.6a6d2c154b33d46ad662.png",
     "static/media/webapp.png": "/static/media/webapp.0ea49e8b967e916cf458.png",
     "static/media/prof1.JPG": "/static/media/prof1.13aa670feacddd6c666c.JPG",
@@ -23,12 +23,12 @@
     "static/media/Frontend developer (1).png": "/static/media/Frontend developer (1).6618ecf9724eecd49092.png",
     "static/media/darkfav.png": "/static/media/darkfav.0bdcbe24a95eef9e075d.png",
     "index.html": "/index.html",
-    "main.511818de.css.map": "/static/css/main.511818de.css.map",
-    "main.963432b7.js.map": "/static/js/main.963432b7.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.c935498b.css.map": "/static/css/main.c935498b.css.map",
+    "main.6fef6080.js.map": "/static/js/main.6fef6080.js.map",
+    "787.d0ad3386.chunk.js.map": "/static/js/787.d0ad3386.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.511818de.css",
-    "static/js/main.963432b7.js"
+    "static/css/main.c935498b.css",
+    "static/js/main.6fef6080.js"
   ]
 }
