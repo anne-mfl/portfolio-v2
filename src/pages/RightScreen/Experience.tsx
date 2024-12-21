@@ -11,7 +11,7 @@ export default function Experience() {
   const experiences = {
     cnag: {
       title: 'Frontend Developer',
-      where: 'CNAG (Centro Nacional de Análisis Genómico)',
+      where: 'Centro Nacional de Análisis Genómico',
       period: 'June 2024 - Present',
       descriptions: [
         'Create data visualization platform for a research project',

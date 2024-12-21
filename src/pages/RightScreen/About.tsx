@@ -13,14 +13,14 @@ export default function About() {
       {/* <AnimationOnScroll animateIn="animate__fadeIn"> */}
         <div className='text-white shadow-4xl'>
           <h1 className='text-xl font-normal px-4 mb-2'>About me</h1>
-          <p className='font-normal leading-6.5 px-4 py-2'>
+          <p className='font-normal text-[15px] leading-6.5 px-4 py-2'>
             Hi, Hola, and こんにちは! My name is Anne and I am a detail-oriented Frontend Developer with three years of experience based in Barcelona, Spain.
             I am passionate about crafting user-centric web experiences and replicating design into responsive and pixel-perfect interfaces.
             <br /><br />
             I originally come from a non-technical background; however, I decided to transform from dancing/translating career and challenge myself back in 2021. 
             After completing a full-stack coding bootcamp, I joined a startup on NFT marketplace, followed by working at a venture capital firm as a Frontend Developer.
             <br /><br />
-            Currently I work at one of the largest genome sequencing center in Europe creating a data visualization platform for a research project, and a full-stack app for the lab group.
+            Currently I work at one of the largest genome sequencing center in Europe creating a data visualization platform for a research project, and a full-stack management app for the lab group.
           </p>
         </div>
       {/* </AnimationOnScroll> */}
