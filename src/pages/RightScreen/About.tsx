@@ -11,18 +11,16 @@ export default function About() {
     >
 
       {/* <AnimationOnScroll animateIn="animate__fadeIn"> */}
-        <div className='text-white shadow-4xl'>
-          <h1 className='text-xl font-normal px-4 mb-2'>About me</h1>
-          <p className='font-normal text-[15px] leading-6.5 px-4 py-2'>
-            Hi, Hola, and こんにちは! My name is Anne and I am a detail-oriented Frontend Developer with three years of experience based in Barcelona, Spain.
-            I am passionate about crafting user-centric web experiences and replicating design into responsive and pixel-perfect interfaces.
-            <br /><br />
-            I originally come from a non-technical background; however, I decided to transform from dancing/translating career and challenge myself back in 2021. 
-            After completing a full-stack coding bootcamp, I joined a startup on NFT marketplace, followed by working at a venture capital firm as a Frontend Developer.
-            <br /><br />
-            Currently I work at one of the largest genome sequencing center in Europe creating a data visualization platform for a research project, and a full-stack management app for the lab group.
-          </p>
-        </div>
+      <div className='text-stone-50 shadow-4xl py-3'>
+        <h1 className='text-xl font-normal px-4 mb-2'>About me</h1>
+        <p className='font-normal text-[15px] leading-6.5 px-4 py-2'>
+          Hi, Hola, and こんにちは! My name is Anne, and I am a detail-oriented Frontend Developer with three years of experience, currently based in Barcelona, Spain. I am passionate about crafting user-centric web experiences and transforming designs into responsive, pixel-perfect interfaces.
+          <br /><br />
+          I come from a non-technical background, having transitioned from a career in dancing and translating to web development in 2021. After completing a full-stack coding bootcamp, I worked as a Frontend Developer at a startup building an NFT marketplace and later at a venture capital firm.
+          <br /><br />
+          Currently, I work at one of Europe's largest genome sequencing centers, where I develop a data visualization platform for a research project and a full-stack management app for the lab group.
+        </p>
+      </div>
       {/* </AnimationOnScroll> */}
 
     </Element>

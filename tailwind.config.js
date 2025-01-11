@@ -32,7 +32,7 @@ module.exports = {
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
-        '4xl': '0 50px 100px -20px rgba(0, 0, 0, 0.5)',
+        '4xl': 'inset 0px 0px 150px 20px rgba(0, 0, 0, 0.7)',
       },
       // content: {
       // 'sun': 'url("./src/icons/sun.svg")',

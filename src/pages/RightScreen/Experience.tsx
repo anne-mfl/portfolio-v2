@@ -147,7 +147,6 @@ export default function Experience() {
           target='_blank'
           className='[&>svg]:transition [&>svg]:hover:translate-x-2  [&>svg]:hover:duration-200 [&>span]:hover:underline'
         >
-          {/* <span className='hover:border-b border-b-stone-600 pb-1'>View resume</span> */}
           <span>View resume</span>
           <FontAwesomeIcon icon={faArrowRight} className='ml-2 text-sm' />
         </a>
